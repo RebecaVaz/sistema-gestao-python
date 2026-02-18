@@ -1,8 +1,8 @@
 # Sistema de Gestão Comercial em Python
 
-Sistema desktop desenvolvido em Python com banco de dados SQLite, criado como projeto acadêmico no início da graduação (Setembro/2024).
+Sistema desktop desenvolvido em Python com banco de dados relacional SQLite, criado como projeto acadêmico no início da graduação (Setembro/2024).
 
-O projeto foi desenvolvido de forma totalmente autodidata, partindo do zero em programação.
+O projeto foi desenvolvido de forma totalmente autodidata, partindo do zero em programação, em constante evolução, com melhorias contínuas de arquitetura, segurança e usabilidade.
 
 ---
 
@@ -14,6 +14,7 @@ O projeto foi desenvolvido de forma totalmente autodidata, partindo do zero em p
 - Tabelas dinâmicas para visualização de dados
 - Barra de pesquisa
 - Exclusão de registros
+- Criação de relatórios
 - Geração de 3 tipos de gráficos
 - Sistema de backup automático na nuvem
 
@@ -23,14 +24,16 @@ O projeto foi desenvolvido de forma totalmente autodidata, partindo do zero em p
 
 - Python
 - SQLite
-- (Coloque aqui: PyQt5 ou Tkinter)
-- Matplotlib (para gráficos)
+- PyQt5 (interface gráfica)
+- Pandas (manipulação de dados)
+- OpenPyXL (geração/exportação de planilhas Excel)
+- Matplotlib (geração de gráficos)
 
 ---
 
 ## 💾 Estrutura do Projeto
 
-O sistema foi estruturado com separação entre:
+O sistema foi estruturado seguindo separação de responsabilidades entre:
 - Interface gráfica
 - Lógica de negócio
 - Banco de dados
@@ -40,9 +43,21 @@ O sistema foi estruturado com separação entre:
 
 ## 📈 Objetivo do Projeto
 
-Aplicar na prática os conhecimentos adquiridos durante a graduação e desenvolver um sistema completo de gestão comercial com foco em organização, segurança de dados e usabilidade.
+Aplicar na prática os conhecimentos adquiridos durante a graduação, desenvolvendo um sistema real com persistência de dados, geração de relatórios e visualização gráfica para apoio à tomada de decisão.
 
 ---
+
+## ▶️ Como Executar o Projeto
+
+1. Clone o repositório:
+   git clone https://github.com/RebecaVaz/sistema-gestao-python.git
+
+2. Instale as dependências:
+   pip install -r requirements.txt
+
+3. Execute o sistema:
+   python main.py
+
 
 ## 👩‍💻 Autora
 
