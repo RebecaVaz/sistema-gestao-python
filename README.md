@@ -12,7 +12,7 @@ O projeto foi desenvolvido de forma totalmente autodidata, partindo do zero em p
 - Desenvolvimento: construção de funcionalidades e integração com banco de dados
 - Versão final: sistema completo com interface gráfica, relatórios, gráficos e backup automático
 
-___
+---
 
 ## 🚀 Funcionalidades
 
