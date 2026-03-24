@@ -62,4 +62,7 @@ Aplicar na prática os conhecimentos adquiridos durante a graduação, desenvolv
 ## 👩‍💻 Autora
 
 Rebeca Vaz  
-Projeto iniciado em Setembro de 2024.
+Projeto iniciado em Setembro de 2024 como primeiro contato com programação, 
+e finalizado em Fevereiro de 2026.
+
+Desenvolvido de forma totalmente autodidata, com evolução contínua ao longo da graduação em Ciência de Dados, incluindo melhorias de arquitetura, segurança e usabilidade.
