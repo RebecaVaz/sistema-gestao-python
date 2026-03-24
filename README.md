@@ -1,16 +1,32 @@
 # Sistema de Gestão Comercial em Python
 
-Sistema desktop desenvolvido em Python com banco de dados relacional SQLite, criado como projeto acadêmico no início da graduação e evoluído até se tornar um sistema completo de gestão comercial.
+Sistema desktop desenvolvido em Python com banco de dados relacional SQLite, iniciado como projeto acadêmico no começo da graduação e evoluído até se tornar um sistema completo de gestão comercial.
 
-O projeto foi desenvolvido de forma totalmente autodidata, partindo do zero em programação, em constante evolução, com melhorias contínuas de arquitetura, segurança e usabilidade.
+Desenvolvido de forma autodidata, o projeto evidencia minha capacidade de aprendizado contínuo e evolução técnica, abrangendo desde os primeiros contatos com programação até a construção de uma aplicação completa, com foco em arquitetura, segurança e usabilidade.
+---
+
+## 💼 O que este projeto demonstra
+
+- Desenvolvimento de aplicação completa (interface + lógica + banco de dados)
+- Integração com banco de dados relacional (SQLite)
+- Criação de interfaces gráficas com PyQt5
+- Manipulação e análise de dados com Pandas
+- Geração de gráficos e relatórios com Matplotlib
+- Implementação de rotinas automatizadas (backup)
+- Organização de código seguindo boas práticas
 
 ---
 
-## 📊 Evolução do Projeto
+## 🎯 Problema Resolvido
 
-- Início: primeiro contato com programação
-- Desenvolvimento: construção de funcionalidades e integração com banco de dados
-- Versão final: sistema completo com interface gráfica, relatórios, gráficos e backup automático
+Pequenos negócios frequentemente enfrentam dificuldades para organizar clientes, pedidos e informações financeiras básicas de forma eficiente.
+
+Este sistema foi desenvolvido para centralizar essas informações, permitindo:
+
+- Controle de clientes e pedidos
+- Visualização clara de dados
+- Geração de relatórios e gráficos
+- Apoio à tomada de decisão
 
 ---
 
@@ -46,13 +62,7 @@ O sistema foi estruturado seguindo separação de responsabilidades entre:
 - Lógica de negócio
 - Banco de dados
 - Sistema de backup automático
-
----
-
-## 📈 Objetivo do Projeto
-
-Desenvolver um sistema real com persistência de dados, geração de relatórios e visualização gráfica para apoio à tomada de decisão em pequenos negócios, permitindo controle eficiente de clientes, pedidos e fluxo financeiro.
-
+  
 ---
 
 ## ▶️ Como Executar o Projeto
@@ -65,10 +75,31 @@ Desenvolver um sistema real com persistência de dados, geração de relatórios
 
 3. Execute o sistema:
    python main.py
+   
+## 🚀 Diferenciais
+- Aplicação completa com interface gráfica funcional
+- Integração entre múltiplas tecnologias
+- Geração automatizada de relatórios e gráficos
+- Estrutura organizada e escalável
+- Implementação de backup automático
 
+---
+
+## 📌 Status do Projeto
+
+✔ Concluído e funcional
+🔄 Em melhorias contínuas
+
+---
 
 ## 👩‍💻 Autora
 
 Rebeca Vaz  
-Projeto iniciado em Setembro de 2024 
+Projeto desenvolvido entre Setembro de 2024 e Fevereiro de 2026 como evolução prática em Python. 
 e finalizado em Fevereiro de 2026.
+
+---
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
