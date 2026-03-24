@@ -1,10 +1,18 @@
 # Sistema de Gestão Comercial em Python
 
-Sistema desktop desenvolvido em Python com banco de dados relacional SQLite, criado como projeto acadêmico no início da graduação (Setembro/2024).
+Sistema desktop desenvolvido em Python com banco de dados relacional SQLite, criado como projeto acadêmico no início da graduação e evoluído até se tornar um sistema completo de gestão comercial.
 
 O projeto foi desenvolvido de forma totalmente autodidata, partindo do zero em programação, em constante evolução, com melhorias contínuas de arquitetura, segurança e usabilidade.
 
 ---
+
+## 📊 Evolução do Projeto
+
+- Início: primeiro contato com programação
+- Desenvolvimento: construção de funcionalidades e integração com banco de dados
+- Versão final: sistema completo com interface gráfica, relatórios, gráficos e backup automático
+
+___
 
 ## 🚀 Funcionalidades
 
@@ -43,7 +51,7 @@ O sistema foi estruturado seguindo separação de responsabilidades entre:
 
 ## 📈 Objetivo do Projeto
 
-Aplicar na prática os conhecimentos adquiridos durante a graduação, desenvolvendo um sistema real com persistência de dados, geração de relatórios e visualização gráfica para apoio à tomada de decisão.
+Desenvolver um sistema real com persistência de dados, geração de relatórios e visualização gráfica para apoio à tomada de decisão em pequenos negócios, permitindo controle eficiente de clientes, pedidos e fluxo financeiro.
 
 ---
 
@@ -62,7 +70,5 @@ Aplicar na prática os conhecimentos adquiridos durante a graduação, desenvolv
 ## 👩‍💻 Autora
 
 Rebeca Vaz  
-Projeto iniciado em Setembro de 2024 como primeiro contato com programação, 
+Projeto iniciado em Setembro de 2024 
 e finalizado em Fevereiro de 2026.
-
-Desenvolvido de forma totalmente autodidata, com evolução contínua ao longo da graduação em Ciência de Dados, incluindo melhorias de arquitetura, segurança e usabilidade.
