@@ -6,17 +6,20 @@ Projeto desenvolvido com foco em evolução prática em Python, abrangendo desde
 ---
 📷 Demonstração:
 
-🖥️ Tela Principal
+📊 Gráficos do Sistema
 <img width="1907" height="1016" alt="Captura de tela 2026-04-07 113239" src="https://github.com/user-attachments/assets/b096f0f1-81ac-4030-b9b3-f58171a2111f" />
 
-📊 Gráficos do Sistema
-
-
-
-
 📋 Cadastro de Clientes, Pedidos e Pagamentos
+<img width="1908" height="1016" alt="Captura de tela 2026-04-07 113337" src="https://github.com/user-attachments/assets/80084743-d57a-4fb9-9460-6725d381972f" />
+<img width="1913" height="1023" alt="Captura de tela 2026-04-07 113346" src="https://github.com/user-attachments/assets/e4fa42a4-4bd5-4174-8b96-0d137b818569" />
+<img width="1914" height="1022" alt="Captura de tela 2026-04-07 113358" src="https://github.com/user-attachments/assets/fef68583-f1c2-4240-963d-b52d3f9b5c12" />
 
----
+📊 Visualização dos dados das Tabelas: Clientes, Pedidos e Pagamentos
+<img width="1907" height="1018" alt="Captura de tela 2026-04-07 113946" src="https://github.com/user-attachments/assets/6252554d-4b82-4e45-9107-d4edf8a13173" />
+<img width="1907" height="1015" alt="Captura de tela 2026-04-07 113954" src="https://github.com/user-attachments/assets/2c261a1d-af59-4717-adb8-5af3481c2570" />
+<img width="1910" height="1022" alt="Captura de tela 2026-04-07 114001" src="https://github.com/user-attachments/assets/9d389de9-519a-4a94-91cf-f6de6552ab41" />
+
+
 ## 💼 O que este projeto demonstra
 
 - Desenvolvimento de aplicação completa (interface + lógica + banco de dados)
