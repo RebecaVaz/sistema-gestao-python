@@ -74,7 +74,7 @@ O sistema foi estruturado seguindo separação de responsabilidades entre:
    pip install -r requirements.txt
 
 3. Execute o sistema:
-   python Sistema.py
+   python main.py
    
 ## 🚀 Diferenciais
 - Aplicação completa com interface gráfica funcional
