@@ -71,7 +71,7 @@ https://github.com/user-attachments/assets/f40f448c-ed14-407d-989a-2c2d93f12d8f
 
 ### 🧾 Geração de Relatórios e Backups 
 
-O sistema permite ao usuário definir como deseja proceder após a geração de relatórios, oferecendo maior controle sobre os dados armazenados.
+Clicando no Botão "Resetar Ids" o sistema permite ao usuário definir como deseja proceder após a geração de relatórios, oferecendo maior controle sobre os dados armazenados.
 
 ⚙️ Opções disponíveis:
 * Gerar o relatório e manter os dados cadastrados
