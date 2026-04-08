@@ -71,20 +71,25 @@ https://github.com/user-attachments/assets/f40f448c-ed14-407d-989a-2c2d93f12d8f
 
 ### 🧾 Geração de Relatórios e Backups 
 
-Clicando no Botão "Resetar Ids" o sistema permite ao usuário definir como deseja proceder após a geração de relatórios, oferecendo maior controle sobre os dados armazenados.
+Ao clicar no botão "Resetar IDs", o sistema permite ao usuário definir como deseja proceder após a geração de relatórios, oferecendo maior controle sobre os dados armazenados.
 
 ⚙️ Opções disponíveis:
-* Gerar o relatório e manter os dados cadastrados
-* Gerar o relatório e resetar completamente a tabela
-
+Gerar o relatório e manter os dados cadastrados
+Gerar o relatório e resetar completamente a tabela
 💾 Armazenamento dos arquivos:
-- Backups:
+
+Backups:
 Salvos automaticamente em:
+
 AppData\Local\EmpresaApp\backups\
-- Relatórios:
+
+Relatórios:
 Salvos na área de trabalho do usuário:
+
 C:\Users\SEU_USUARIO\Desktop\Relatórios
+
 ou
+
 C:\Users\SEU_USUARIO\OneDrive\Desktop\Relatórios
 
 Essa funcionalidade proporciona mais segurança e flexibilidade na gestão das informações, permitindo ao usuário controlar tanto a geração de relatórios quanto a persistência dos dados.
