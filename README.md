@@ -76,6 +76,7 @@ Ao clicar no botão "Resetar IDs", o sistema permite ao usuário definir como de
 ⚙️ Opções disponíveis:
 Gerar o relatório e manter os dados cadastrados
 Gerar o relatório e resetar completamente a tabela
+
 💾 Armazenamento dos arquivos:
 
 Backups:
