@@ -74,14 +74,14 @@ https://github.com/user-attachments/assets/f40f448c-ed14-407d-989a-2c2d93f12d8f
 O sistema permite ao usuário definir como deseja proceder após a geração de relatórios, oferecendo maior controle sobre os dados armazenados.
 
 ⚙️ Opções disponíveis:
-Gerar o relatório e manter os dados cadastrados
-Gerar o relatório e resetar completamente a tabela
+* Gerar o relatório e manter os dados cadastrados
+* Gerar o relatório e resetar completamente a tabela
 
 💾 Armazenamento dos arquivos:
-Backups:
+- Backups:
 Salvos automaticamente em:
 AppData\Local\EmpresaApp\backups\
-Relatórios:
+- Relatórios:
 Salvos na área de trabalho do usuário:
 C:\Users\SEU_USUARIO\Desktop\Relatórios
 ou
