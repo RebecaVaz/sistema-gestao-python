@@ -97,6 +97,7 @@ Essa funcionalidade proporciona mais segurança e flexibilidade na gestão das i
 
 <img width="1911" height="1040" alt="Captura de tela 2026-04-07 114401" src="https://github.com/user-attachments/assets/756aa26e-0a46-4136-9e47-13b0bc930828" />
 
+<img width="1078" height="297" alt="Captura de tela 2026-04-07 221536" src="https://github.com/user-attachments/assets/1e3d0f2d-7460-4775-b5a1-5c753322d27b" />
 
 https://github.com/user-attachments/assets/2be8e5d0-97a8-48e1-a907-590f56a8bed7
 
