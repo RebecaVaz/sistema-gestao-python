@@ -8,32 +8,92 @@ Projeto desenvolvido com foco em evolução prática em Python, abrangendo desde
 
 ### 📊 Gráficos do Sistema
 
-<img width="1907" height="1016" alt="Captura de tela 2026-04-07 113239" src="https://github.com/user-attachments/assets/b096f0f1-81ac-4030-b9b3-f58171a2111f" />
+<video src="SEU_VIDEO_AQUI.mp4" controls width="800"></video>
 
-### 📋 Cadastro de Clientes, Pedidos e Pagamentos
+Os gráficos são atualizados em tempo real com base nas informações registradas nas tabelas do sistema.
+Qualquer alteração nos dados impacta automaticamente as visualizações, garantindo consistência e análise dinâmica.
 
-<img width="1908" height="1016" alt="Captura de tela 2026-04-07 113337" src="https://github.com/user-attachments/assets/80084743-d57a-4fb9-9460-6725d381972f" />
-<img width="1913" height="1023" alt="Captura de tela 2026-04-07 113346" src="https://github.com/user-attachments/assets/e4fa42a4-4bd5-4174-8b96-0d137b818569" />
-<img width="1914" height="1022" alt="Captura de tela 2026-04-07 113358" src="https://github.com/user-attachments/assets/fef68583-f1c2-4240-963d-b52d3f9b5c12" />
+#### 📌 Tipos de análise disponíveis:
 
-### 📊 Visualização dos dados das Tabelas: Clientes, Pedidos e Pagamentos
+* **Gráfico de Barras:**
+  Apresenta os produtos cadastrados e a quantidade de pedidos associados, permitindo identificar os itens mais e menos vendidos.
 
-<img width="1907" height="1018" alt="Captura de tela 2026-04-07 113946" src="https://github.com/user-attachments/assets/6252554d-4b82-4e45-9107-d4edf8a13173" />
-<img width="1907" height="1015" alt="Captura de tela 2026-04-07 113954" src="https://github.com/user-attachments/assets/2c261a1d-af59-4717-adb8-5af3481c2570" />
-<img width="1890" height="1034" alt="Captura de tela 2026-04-07 114346" src="https://github.com/user-attachments/assets/67d092f9-2669-4589-98cf-101f33411122" />
+* **Gráfico de Linhas:**
+  Exibe a relação entre pagamentos realizados e não realizados ao longo do tempo, possibilitando uma análise de desempenho financeiro mensal.
 
-### 🧾 Geração de Relatórios
+* **Gráfico de Pizza:**
+  Mostra a distribuição dos métodos de pagamento utilizados pelos clientes.
 
-O sistema permite ao usuário decidir como deseja proceder após a geração de relatórios, oferecendo maior controle sobre os dados armazenados.
+* **Indicadores em Tabela:**
+  Exibe a quantidade de pedidos concluídos e cancelados, permitindo uma análise de desistências.
 
-É possível escolher entre:
+https://github.com/user-attachments/assets/4c30de85-1691-4a08-b181-4e96cbfcc473
 
+https://github.com/user-attachments/assets/d9ffbea6-3d83-4901-b4d1-f7e9e4ee855f
+
+### 📋 Cadastro de Clientes, Pedidos, Pagamentos e Edição de Tabelas
+
+* Em todas as abas de cadastro, é possível utilizar a tecla **Enter** para avançar automaticamente para o próximo campo.
+
+* No cadastro de pedidos, é possível adicionar ou remover produtos por meio dos botões:
+
+  * ✔️ Adicionar produto
+  * ❌ Remover produto
+    A configuração escolhida é mantida mesmo após fechar o sistema ou desligar o computador.
+
+* Nos campos de data, ao selecionar um dia diferente do atual, após a finalização do cadastro o sistema redefine automaticamente para a data atual.
+  O mesmo ocorre com os **ComboBox**, que retornam para a opção padrão.
+
+* No cadastro de pagamentos, basta inserir apenas números que o sistema realiza a formatação automática (ex: valores monetários).
+  O mesmo se aplica à edição de datas diretamente nas tabelas.
+
+* Ao editar valores nas tabelas, recomenda-se utilizar a vírgula para evitar erros de interpretação.
+  Exemplo: `85,00` em vez de `8500`.
+
+* As barras de pesquisa permitem localizar registros por **nome** e **data**.
+
+* O código de cadastro é único e não pode ser alterado.
+  As tabelas exibem dois números:
+
+  * Índice da linha (posição atual)
+  * Código de cadastro (identificador único)
+
+  Por isso, nem sempre os valores coincidem.
+  Exemplo: um registro pode ter código **3**, mas estar na **linha 1**, caso registros anteriores tenham sido removidos.
+
+
+https://github.com/user-attachments/assets/847f693d-3ce8-4fb7-8e49-2d3fe5730b1c
+
+https://github.com/user-attachments/assets/789c6c93-cac8-47fc-806b-eccba1a88baa
+
+https://github.com/user-attachments/assets/f40f448c-ed14-407d-989a-2c2d93f12d8f
+
+
+### 🧾 Geração de Relatórios e Backups 
+
+O sistema permite ao usuário definir como deseja proceder após a geração de relatórios, oferecendo maior controle sobre os dados armazenados.
+
+⚙️ Opções disponíveis:
 Gerar o relatório e manter os dados cadastrados
 Gerar o relatório e resetar completamente a tabela
 
-Essa funcionalidade proporciona mais segurança e flexibilidade na gestão das informações.
+💾 Armazenamento dos arquivos:
+Backups:
+Salvos automaticamente em:
+AppData\Local\EmpresaApp\backups\
+Relatórios:
+Salvos na área de trabalho do usuário:
+C:\Users\SEU_USUARIO\Desktop\Relatórios
+ou
+C:\Users\SEU_USUARIO\OneDrive\Desktop\Relatórios
+
+Essa funcionalidade proporciona mais segurança e flexibilidade na gestão das informações, permitindo ao usuário controlar tanto a geração de relatórios quanto a persistência dos dados.
 
 <img width="1911" height="1040" alt="Captura de tela 2026-04-07 114401" src="https://github.com/user-attachments/assets/756aa26e-0a46-4136-9e47-13b0bc930828" />
+
+
+https://github.com/user-attachments/assets/2be8e5d0-97a8-48e1-a907-590f56a8bed7
+
 
 ---
 ## 💼 O que este projeto demonstra
