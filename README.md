@@ -196,7 +196,7 @@ O sistema foi estruturado seguindo separação de responsabilidades entre:
 
 ---
 
-## 📌 Status do Projeto
+## 📌 Status 
 
 ✔ Concluído e funcional
 🔄 Em melhorias contínuas
@@ -419,7 +419,7 @@ The application was structured around a separation of responsibilities, encompas
 
 ---
 
-## 📌 Project Status
+## 📌 Status
 
 ✔ Completed and functional.
 
