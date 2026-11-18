@@ -203,16 +203,9 @@ O sistema foi estruturado seguindo separação de responsabilidades entre:
 
 ---
 
-## 👩‍💻 Autora
+## 📌 Projeto
 
-Rebeca Vaz  
-Projeto desenvolvido entre Setembro de 2024 e Fevereiro de 2026, como parte da minha evolução prática em Python.
-
----
-
-📄 Licença
-
-Este projeto está sob a licença MIT.
+Desenvolvido entre Setembro de 2024 e Fevereiro de 2026, como parte da minha evolução prática em Python.
 
 ---
 
@@ -434,14 +427,6 @@ The application was structured around a separation of responsibilities, encompas
 
 ---
 
-## 👩‍💻 Author
+## 📌 Project
 
-Rebeca Vaz
-
-Project developed between September 2024 and February 2026 as part of my hands-on learning journey and practical development experience with Python.
-
----
-
-📄 **License**
-
-This project is licensed under the MIT License.
+Developed between September 2024 and February 2026 as part of my hands-on learning journey and practical development experience with Python.
