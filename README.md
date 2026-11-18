@@ -1,5 +1,13 @@
 # Sistema de Gestão Comercial em Python
 
+<p align="center">
+  **🇧🇷 Português | 🇺🇸 English**
+</p>
+
+---
+
+# 🇧🇷 Português
+
 Sistema desktop desenvolvido em Python com banco de dados relacional SQLite, iniciado como projeto acadêmico no começo da graduação e evoluído até se tornar um sistema completo de gestão comercial.
 
 Projeto desenvolvido com foco em evolução prática em Python, abrangendo desde conceitos iniciais até a construção de uma aplicação completa com interface gráfica, banco de dados e geração de relatórios.
@@ -205,3 +213,235 @@ Projeto desenvolvido entre Setembro de 2024 e Fevereiro de 2026, como parte da m
 📄 Licença
 
 Este projeto está sob a licença MIT.
+
+---
+
+# 🇺🇸 English
+
+# Python-Based Business Management System
+
+A desktop application developed in Python using SQLite as its relational database. Initially created as an academic project at the beginning of my undergraduate studies, it gradually evolved into a fully functional business management system.
+
+The project was developed with a strong emphasis on hands-on Python experience, covering everything from fundamental programming concepts to building a complete application featuring a graphical user interface, database integration, and automated report generation.
+
+---
+
+📷 **Application Showcase**
+
+### 📊 System Analytics and Charts
+
+<video src="SEU_VIDEO_AQUI.mp4" controls width="800"></video>
+
+The charts are updated in real time based on the information recorded in the system's database tables.
+
+Any changes to the underlying data are automatically reflected in the visualizations, ensuring data consistency and enabling dynamic analysis.
+
+#### 📌 Available Analytical Visualizations:
+
+* **Bar Chart:**
+  Displays registered products and their associated order quantities, making it possible to identify the best-selling and least-selling items.
+
+* **Line Chart:**
+  Illustrates the relationship between completed and outstanding payments over time, enabling monthly financial performance analysis.
+
+* **Pie Chart:**
+  Shows the distribution of payment methods used by customers.
+
+* **Tabular Indicators:**
+  Displays the number of completed and canceled orders, providing insights into order cancellations and customer drop-offs.
+
+https://github.com/user-attachments/assets/4c30de85-1691-4a08-b181-4e96cbfcc473
+
+https://github.com/user-attachments/assets/d9ffbea6-3d83-4901-b4d1-f7e9e4ee855f
+
+### 📋 Customer, Order, and Payment Registration & Table Editing
+
+* Across all registration tabs, pressing the **Enter** key automatically moves the cursor to the next input field.
+
+* In the order registration section, products can be added or removed using the following buttons:
+
+  * ✔️ Add Product
+  * ❌ Remove Product
+
+  The selected configuration is preserved even after closing the application or shutting down the computer.
+
+* In date fields, if a date other than the current date is selected, the system automatically resets it to the current date once the registration process is completed.
+
+  The same behavior applies to **ComboBoxes**, which automatically revert to their default selections.
+
+* In the payment registration section, users only need to enter numeric values, as the system automatically applies the appropriate formatting (e.g., currency values).
+
+  The same functionality applies when editing dates directly within the tables.
+
+* When editing values directly in the tables, using a comma as the decimal separator is recommended to prevent incorrect value interpretation.
+
+  Example: `85,00` instead of `8500`.
+
+* Search bars allow users to locate records by **name** and **date**.
+
+* Each registration code is unique and cannot be modified.
+
+  The tables display two separate numerical references:
+
+  * Row index (current position in the table)
+  * Registration code (unique record identifier)
+
+  Therefore, these values do not necessarily match.
+
+  Example: a record may have registration code **3** while appearing in **row 1**, if previous records have been deleted.
+
+https://github.com/user-attachments/assets/847f693d-3ce8-4fb7-8e49-2d3fe5730b1c
+
+https://github.com/user-attachments/assets/789c6c93-cac8-47fc-806b-eccba1a88baa
+
+https://github.com/user-attachments/assets/f40f448c-ed14-407d-989a-2c2d93f12d8f
+
+### 🧾 Report Generation and Backups
+
+When clicking the **"Reset IDs"** button, the system allows users to choose how they want to proceed after generating reports, providing greater control over stored data.
+
+⚙️ **Available Options:**
+
+- Generate the report while retaining all registered data.
+- Generate the report and completely reset the table.
+
+💾 **File Storage Locations:**
+
+**Backups:**
+
+Automatically saved to:
+
+`AppData\Local\EmpresaApp\backups\`
+
+**Reports:**
+
+Saved to the user's desktop:
+
+`C:\Users\YOUR_USERNAME\Desktop\Reports`
+
+or
+
+`C:\Users\YOUR_USERNAME\OneDrive\Desktop\Reports`
+
+This functionality provides greater security and flexibility in information management, allowing users to control both report generation and data retention.
+
+<img width="1911" height="1040" alt="Screenshot 2026-04-07 114401" src="https://github.com/user-attachments/assets/756aa26e-0a46-4136-9e47-13b0bc930828" />
+
+<img width="1078" height="297" alt="Screenshot 2026-04-07 221536" src="https://github.com/user-attachments/assets/1e3d0f2d-7460-4775-b5a1-5c753322d27b" />
+
+<img width="1151" height="488" alt="Screenshot 2026-04-07 221753" src="https://github.com/user-attachments/assets/a50eaf33-3e51-414f-9ff1-aeb169ee2849" />
+
+https://github.com/user-attachments/assets/2be8e5d0-97a8-48e1-a907-590f56a8bed7
+
+---
+
+## 💼 What This Project Demonstrates
+
+- End-to-end application development (user interface, business logic, and database integration).
+- Relational database integration using SQLite.
+- Graphical user interface development with PyQt5.
+- Data manipulation and analysis using Pandas.
+- Data visualization and report generation with Matplotlib.
+- Implementation of automated processes, including database backups.
+- Code organization and maintainability following software development best practices.
+
+---
+
+## 🎯 Problem Addressed
+
+Small businesses often face challenges in efficiently organizing customer records, orders, and basic financial information.
+
+This system was developed to centralize these operations, providing:
+
+- Customer and order management.
+- Clear and accessible data visualization.
+- Automated report and chart generation.
+- Support for informed business decision-making.
+
+---
+
+## 🚀 Features
+
+- Customer registration and management.
+- Order registration and management.
+- Payment tracking and management.
+- Dynamic tables for data visualization.
+- Search functionality.
+- Record deletion.
+- Automated report generation.
+- Three types of data visualizations.
+- Automated cloud backup system.
+
+---
+
+## 🛠 Technologies Used
+
+- **Python** — Core programming language.
+- **SQLite** — Relational database management.
+- **PyQt5** — Graphical user interface development.
+- **Pandas** — Data manipulation and analysis.
+- **OpenPyXL** — Excel spreadsheet generation and export.
+- **Matplotlib** — Data visualization and chart generation.
+
+---
+
+## 💾 Project Architecture
+
+The application was structured around a separation of responsibilities, encompassing:
+
+- Graphical user interface.
+- Business logic.
+- Database management.
+- Automated backup system.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/RebecaVaz/sistema-gestao-python.git
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```bash
+   python main.py
+   ```
+
+## 🚀 Key Highlights
+
+- Fully functional desktop application with a graphical user interface.
+- Integration of multiple technologies.
+- Automated report and chart generation.
+- Well-structured and scalable architecture.
+- Automated backup implementation.
+
+---
+
+## 📌 Project Status
+
+✔ Completed and functional.
+
+🔄 Continuously evolving through ongoing improvements.
+
+---
+
+## 👩‍💻 Author
+
+Rebeca Vaz
+
+Project developed between September 2024 and February 2026 as part of my hands-on learning journey and practical development experience with Python.
+
+---
+
+📄 **License**
+
+This project is licensed under the MIT License.
